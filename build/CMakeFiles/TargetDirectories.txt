@@ -1,0 +1,3 @@
+/home/badaboom4ik/Загрузки/Telegram Desktop/image_processor/build/CMakeFiles/image_processor.dir
+/home/badaboom4ik/Загрузки/Telegram Desktop/image_processor/build/CMakeFiles/edit_cache.dir
+/home/badaboom4ik/Загрузки/Telegram Desktop/image_processor/build/CMakeFiles/rebuild_cache.dir

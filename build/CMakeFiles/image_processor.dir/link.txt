@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/image_processor.dir/link.d CMakeFiles/image_processor.dir/main.cpp.o CMakeFiles/image_processor.dir/bmp.cpp.o CMakeFiles/image_processor.dir/filter_factory.cpp.o -o image_processor
