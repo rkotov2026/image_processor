@@ -69,7 +69,7 @@ void PrintHelp(const char* program) {
         << "  -sharp                   sharpen\n"
         << "  -edge <threshold>        edge detection (threshold in [0,1])\n"
         << "  -blur <sigma>            gaussian blur (sigma > 0)\n"
-        << "  -boxblur <radius>        box blur (radius > 0)\n\n"
+        << "  -pnt <radius> <seed>       pnt (radius > 0) seed (0 = random)\n\n"
         << "Example:\n"
         << "  " << program
         << " input.bmp output.bmp -crop 800 600 -gs -blur 0.5\n";

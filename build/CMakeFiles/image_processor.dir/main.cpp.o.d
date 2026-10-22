@@ -245,7 +245,12 @@ CMakeFiles/image_processor.dir/main.cpp.o: \
  /usr/include/c++/15/tr1/poly_laguerre.tcc \
  /usr/include/c++/15/tr1/riemann_zeta.tcc \
  /home/badaboom4ik/Загрузки/Telegram\ Desktop/image_processor/filters/base_filter.h \
- /home/badaboom4ik/Загрузки/Telegram\ Desktop/image_processor/filters/box_blur_filter.h \
+ /home/badaboom4ik/Загрузки/Telegram\ Desktop/image_processor/filters/pointillize_filter.h \
+ /usr/include/c++/15/random /usr/include/c++/15/bits/random.h \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/opt_random.h \
+ /usr/include/c++/15/bits/random.tcc /usr/include/c++/15/numeric \
+ /usr/include/c++/15/bits/stl_numeric.h \
+ /usr/include/c++/15/pstl/glue_numeric_defs.h \
  /home/badaboom4ik/Загрузки/Telegram\ Desktop/image_processor/filters/crop_filter.h \
  /home/badaboom4ik/Загрузки/Telegram\ Desktop/image_processor/filters/edge_detection_filter.h \
  /home/badaboom4ik/Загрузки/Telegram\ Desktop/image_processor/filters/grayscale_filter.h \

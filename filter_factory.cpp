@@ -51,7 +51,7 @@ int ExpectedParamCount(std::string_view name) {
     if (name == SharpeningFilter::Name)    return SharpeningFilter::ParamCount;
     if (name == EdgeDetectionFilter::Name) return EdgeDetectionFilter::ParamCount;
     if (name == GaussianBlurFilter::Name)  return GaussianBlurFilter::ParamCount;
-    if (name == BoxBlurFilter::Name)       return BoxBlurFilter::ParamCount;
+    if (name == PointillizeFilter::Name)       return PointillizeFilter::ParamCount;
     return -1;
 }
 
@@ -84,9 +84,10 @@ std::unique_ptr<Filter> CreateFilter(std::string_view name,
         return std::make_unique<GaussianBlurFilter>(
             static_cast<float>(sigma));
     }
-    if (name == BoxBlurFilter::Name) {
-        const int rad = ParseInt(params[0], "boxblur radius");
-        return std::make_unique<BoxBlurFilter>(rad);
+    if (name == PointillizeFilter::Name) {
+        const int rad = ParseDouble(params[0], "pointillize radius");
+        const int seed = ParseInt(params[1], "pointillize seed");
+        return std::make_unique<PointillizeFilter>(static_cast<float>(rad), seed);
     }
     throw ArgsError("unknown filter: '" + std::string(name) + "'");
 }

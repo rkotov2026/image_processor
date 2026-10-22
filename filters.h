@@ -10,7 +10,7 @@
 #include "bmp.h"
 #include "exceptions.h"
 #include "filters/base_filter.h"
-#include "filters/box_blur_filter.h"
+#include "filters/pointillize_filter.h"
 #include "filters/crop_filter.h"
 #include "filters/edge_detection_filter.h"
 #include "filters/gaussian_blur_filter.h"
